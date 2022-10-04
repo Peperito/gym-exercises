@@ -1,8 +1,8 @@
 import React from 'react'
 
-const SimilarExercises = () => {
+const SimilarExercises = ({exercises}: any) => {
   return (
-    <div>SimilarExercises</div>
+    exercises.map
   )
 }
 
